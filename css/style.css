@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:wght@500;700;900&family=VT323&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif, Helvetica;
+}
+
+body {
+  background-color: #121212;
+}
+.containers {
+  width: 70% !important;
+}
+.height {
+  height: 120px !important;
+}
+
+/*! enter */
+.enter {
+  padding: 10px !important;
+  color: #090909 !important;
+  font-size: 16px !important;
+}
+/*! exxenspor */
+.exxenspor {
+  padding: 10px !important;
+  font-size: 16px;
+}
+/*! dropdown */
+.dropdown-menu a:hover {
+  background-color: blue;
+  opacity: 0.8;
+  color: #fff;
+}
+/*! background-color */
+.background {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: #121212;
+  padding: 30px 0 11px 0;
+}
+/*! sign-up */
+.sign-up {
+  font-size: 19.2px !important;
+  color: #000;
+  font-family: "Inter Bold" !important;
+  font-weight: bold;
+  height: 50px;
+  width: 75% !important;
+  color: #ffc107;
+}
+
+/*! form-control */
+.form-control {
+  border: solid 2px #c7c7c7;
+  background-color: #ffffff;
+  height: 50px;
+  padding: 0 19px;
+  font-size: 1rem;
+  font-weight: 600 !important;
+  margin: 0px 15px;
+  color: #090909 !important;
+}
+.form-control:focus {
+  border-color: #ffcb04 !important;
+  box-shadow: none !important;
+}
+/*! posters */
+.svg {
+  position: absolute;
+  bottom: 75px;
+  right: 10px;
+}
+.svg1 {
+  position: absolute;
+  bottom: 100px;
+  right: 10px;
+}
+.svg3 {
+  position: absolute;
+  bottom: 120px;
+  right: 10px;
+}
+.card-body h5 {
+  text-align: center;
+  padding: 10px 0 0 0;
+  display: block;
+  font-size: 19.2px;
+}
+/*! device  */
+.device img {
+  width: 320px;
+}
+/*! desc */
+.desc {
+  font-size: 26px !important;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/*! app */
+.app img {
+  height: 40px;
+  width: auto;
+  margin: 0 5px;
+}
+/*! social */
+.social img {
+  cursor: pointer;
+}
+
+/*! help center */
+.help a {
+  font-size: 20.8px;
+}
+/*! ticari */
+.hero-img h1 {
+  font-size: 21px;
+  font-weight: bold;
+}
+/*! ticari yellow-block */
+.hero-img .yellow-block {
+  width: 224px !important;
+  height: 4px !important;
+  background-color: #ffc107 !important;
+  margin: 0 auto;
+  display: block;
+  z-index: 1;
+}
+.hero-img h4 {
+  font-size: 20.8px;
+  width: 100%;
+  line-height: 1.5 !important;
+}
+/*! ticari forms */
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #111;
+  margin: 50px 0 150px 0;
+}
+.input-2 {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.input label {
+  text-align: start;
+  width: 50%;
+}
+.input input {
+  border-radius: 0;
+  background-color: #fff;
+  padding: 0 10px;
+  font-weight: 600;
+  color: #090909;
+}
+.form-select {
+  height: 50px !important;
+}
+.textarea {
+  width: 50%;
+}
+.input-group {
+  width: 53% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin-left: 10px !important;
+}
+.input-group .dropdown-toggle {
+  height: 100% !important;
+}
