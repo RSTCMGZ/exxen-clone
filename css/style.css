@@ -6,7 +6,12 @@
   padding: 0;
   font-family: "Inter", sans-serif, Helvetica;
 }
-
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
 body {
   background-color: #121212;
 }
@@ -23,10 +28,44 @@ body {
   color: #090909 !important;
   font-size: 16px !important;
 }
+/*! navbar */
+@media (max-width: 1050px) {
+  .navbar-collapse {
+    z-index: 9999;
+    display: flex;
+  }
+  .navbar-collapse ul {
+    display: flex;
+  }
+  .navbar-collapse .enter {
+    display: none;
+  }
+  .navbar-collapse .dropdown {
+    display: none;
+  }
+}
+
 /*! exxenspor */
 .exxenspor {
   padding: 10px !important;
   font-size: 16px;
+}
+@media (max-width: 920px) {
+  .background .row {
+    display: block;
+    width: 100% !important;
+  }
+  .background .col-4 {
+    width: 100% !important;
+    margin: 20px;
+  }
+  .background .input-group {
+    width: 100% !important;
+  }
+  .background button {
+    margin-left: 25px;
+    width: 95% !important;
+  }
 }
 /*! dropdown */
 .dropdown-menu a:hover {
@@ -112,10 +151,16 @@ body {
   margin: 0 5px;
 }
 /*! social */
+.social {
+  display: flex;
+  column-gap: 5px;
+}
 .social img {
   cursor: pointer;
 }
-
+.social-2 img {
+  border-radius: 50%;
+}
 /*! help center */
 .help a {
   font-size: 20.8px;
@@ -173,13 +218,52 @@ body {
   width: 50%;
 }
 .input-group {
-  width: 53% !important;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 50px;
+  width: 53% !important;
+
   margin-left: 10px !important;
 }
 .input-group .dropdown-toggle {
   height: 100% !important;
+}
+/*! footer */
+footer {
+  padding-top: 35px;
+  background-color: #212121;
+  padding-bottom: 56px;
+}
+.row-1 {
+  display: flex;
+}
+
+.row-2 {
+  display: flex;
+  width: 100%;
+}
+.row-2 li {
+  width: 100%;
+  display: inline-block;
+  margin: 7px 28px 0 0 !important;
+}
+.row-2 li a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #9e9e9e;
+  font-family: "Inter Regular";
+}
+.col-lg-3 h3 {
+  color: #9e9e9e;
+  font-size: 14px;
+  border-bottom: 1px solid #484848;
+  margin-top: 20px;
+  font-family: "Inter Bold" !important;
+  padding-bottom: 6px;
+  margin-bottom: 10px;
+}
+.img-app img {
+  width: 160px;
+  margin: 10px;
 }
