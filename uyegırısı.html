@@ -17,7 +17,7 @@
     />
     <!--! CSS CDN -->
     <link rel="stylesheet" href="css/style.css" />
-    <title>EXXENSPOR Ticari Üyelik Paketleri</title>
+    <title>Exxen</title>
   </head>
   <body>
     <!--! Navbar start -->
@@ -55,7 +55,7 @@
                 <li class="nav-item text-center">
                   <a
                     class="nav-link bg-warning border border-black fw-bold text-black enter"
-                    href="uyegırısı.html"
+                    href="#"
                     >ÜYE GİRİŞİ</a
                   >
                 </li>
@@ -92,159 +92,65 @@
       </div>
     </div>
     <!--! Navbar end -->
-    <!--! hero image start -->
-    <div class="hero-img container containers mt-5">
-      <img class="w-100" src="img/ticari/landing_kurumsal.webp" alt="" />
-      <h1 class="text-white mt-4 text-center">
-        EXXENSPOR Ticari Üyelik Paketleri
-      </h1>
-      <div class="yellow-block"></div>
-      <h4 class="text-white text-center mt-4">
-        Restoranlar, kafeler, çay bahçeleri, kahvehaneler, oteller, moteller,
-        pansiyonlar, tatil köyleri, hastaneler gibi işletmeler şimdi Exxenspor
-        Ticari Üyelik için exxen.com’a girip işletmelerine Şampiyonlar Ligi,
-        Avrupa Ligi, Avrupa Konferans Ligi ve benzersiz Exxen Dünyası
-        ayrıcalığını <br />kazandırıyor. <br />
-        UYARI: Ticari olmayan Exxenspor üyeliği ile işletmelerinde toplu
-        gösterim yapanlar hakkında yasal <br />
-        işlem başlatılacaktır.
-      </h4>
-    </div>
-
-    <!--! hero image end -->
-    <!--! form start -->
-    <div class="container containers mt-5 mb-5">
-      <h2 class="text-white text-center">
-        Lütfen başvuru için <br />
-        formu doldurunuz.
-      </h2>
-      <form>
-        <div class="mb-3 input">
-          <div class="input-2">
-            <label for="exampleInputEmail1" class="form-label text-warning"
+    <!--! sign-up start -->
+    <div class="container containers">
+      <h2 class="text-white text-center mt-5">Üye Girişi</h2>
+      <div class="content">
+        <form>
+          <div class="mb-3 input">
+            <label
+              for="exampleInputEmail1"
+              class="form-label text-warning w-100"
               >Ad Soyadı
             </label>
             <input
               type="email"
-              class="form-control w-50"
+              class="form-control w-100"
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
             />
-            <label for="exampleInputEmail1" class="form-label text-warning mt-4"
+            <label
+              for="exampleInputEmail1"
+              class="form-label w-100 text-warning mt-4"
               >E-Posta Adresi
             </label>
             <input
               type="email"
-              class="form-control w-50 rounded-0"
+              class="form-control w-100 rounded-0"
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
             />
-            <label for="exampleInputEmail1" class="form-label text-warning mt-4"
-              >İşletme Adı
-            </label>
-            <input
-              type="email"
-              class="form-control w-50 rounded-0"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-            />
-            <label for="exampleInputEmail1" class="form-label text-warning mt-4"
-              >Ticari Ünvan
-            </label>
-            <input
-              type="email"
-              class="form-control w-50 rounded-0"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-            />
-            <label for="exampleInputEmail1" class="form-label text-warning mt-4"
-              >İl
-              <select
-                class="form-select rounded-0"
-                aria-label="Default select example"
-              >
-                <option selected></option>
-                <option value="1">İzmir</option>
-                <option value="2">İstanbul</option>
-                <option value="3">Konya</option>
-              </select>
-            </label>
-            <label for="exampleInputEmail1" class="form-label text-warning mt-4"
-              >İlçe
-              <select
-                class="form-select rounded-0"
-                aria-label="Default select example"
-              >
-                <option selected></option>
-              </select>
-            </label>
-            <label for="exampleInputEmail1" class="form-label text-warning mt-4"
-              >Vergi Dairesi
-              <select
-                class="form-select rounded-0"
-                aria-label="Default select example"
-              >
-                <option selected></option>
-              </select>
-            </label>
-            <label for="exampleInputEmail1" class="form-label text-warning mt-4"
-              >Vergi Numarası / TCKNO
-            </label>
-            <input
-              type="email"
-              class="form-control w-50 rounded-0"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-            />
-            <label for="exampleInputEmail1" class="form-label text-warning mt-4"
-              >Adres
-            </label>
-            <textarea
-              v-model="Address"
-              id="Address"
-              name="address"
-              type="text"
-              class="form-control textarea rounded-0"
-              required
-            ></textarea>
-            <label for="exampleInputEmail1" class="text-warning mt-4"
-              >Telefon Numarası
-            </label>
-            <div class="input-group group-1">
-              <button
-                class="btn btn-outline-secondary rounded-0 dropdown-toggle h-100"
-                type="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                +90
-              </button>
-              <ul class="dropdown-menu rounded-0">
-                <li><a class="dropdown-item" href="#">Türkiye</a></li>
-                <li><hr class="dropdown-divider" /></li>
-
-                <li><a class="dropdown-item" href="#">English</a></li>
-
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#"> Espanol</a></li>
-              </ul>
+            <div class="form-check d-flex text-white w-100 mt-2">
               <input
-                type="text"
-                class="form-control"
-                aria-label="Text input with dropdown button"
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
               />
+              <label class="form-check-label" for="exampleCheck1"
+                >Beni Hatırla</label
+              >
+              <a href="#" class="text-white text-decoration-underline"
+                >Şifremi Unuttum</a
+              >
             </div>
             <button
               type="submit"
-              class="btn btn-warning w-50 text-black rounded-0 mt-4 fw-bold mb-5"
+              class="btn btn-warning w-100 text-black rounded-0 mt-4 fw-bold"
             >
               Gönder
             </button>
+            <button
+              type="submit"
+              class="btn btn-three w-100 text-black rounded-0 mt-2"
+            >
+              Telefon numarası ile giriş yap
+            </button>
           </div>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
-    <!--! form end -->
+
+    <!--! sign-up end -->
     <!--! footer start -->
     <footer>
       <div class="container">

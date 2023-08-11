@@ -222,12 +222,15 @@ body {
   align-items: center;
   justify-content: center;
   height: 50px;
-  width: 53% !important;
-
   margin-left: 10px !important;
+}
+.group-1 {
+  width: 53% !important;
 }
 .input-group .dropdown-toggle {
   height: 100% !important;
+}
+.input-group .form-control {
 }
 /*! footer */
 footer {
@@ -266,4 +269,26 @@ footer {
 .img-app img {
   width: 160px;
   margin: 10px;
+}
+/*! uye girisi content */
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #111;
+  margin: 0 0 150px 0;
+}
+.content h2 {
+  margin: 0;
+  font-size: 28px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+  word-break: break-word;
+}
+.btn-three,
+.btn-three:hover {
+  background-color: #333;
+  color: #fff !important;
 }
